@@ -42,9 +42,8 @@ Clone o repositório:
 
 bash
 Copy code
-git clone https://github.com/seu-usuario/nome-repositorio.git
-cd nome-repositorio
-Instale as dependências (se necessário):
+git clone https://github.com/leandroffdev/curso_typescript.git
+cd curso_typescript
 
 bash
 Copy code
