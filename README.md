@@ -3,26 +3,28 @@
 Este repositório contém todo o material do curso de **TypeScript** do portal **DIO Programação**. Aqui estão organizados exemplos práticos, exercícios e conceitos fundamentais da linguagem.
 
 ## instalar:
-npm install -G -D typescript
-npm install -D ts-node
-npm install -D ts-node-dev    
+> npm install -G -D typescript
+> npm install -D ts-node
+> npm install -D ts-node-dev    
 
 ## iniciando o typescript no projeto
-npx tsc --init
+> npx tsc --init
 
 ## precisamos compilar .ts para .js
-npx tsc index.ts  // Irá gerar outro arquivo .js
+> npx tsc index.ts  // Irá gerar outro arquivo .js
 
 ## criando script para executar direto sem o passo anterior o app.ts
+```
 "scripts": {
   "dev": "ts-node-dev caminho/app.ts"
 },
-
+```
 ## ou use o parâmetro --respawn para ficar atualizando automaticamente a cada atualização
+```
 "scripts": {
   "dev": "ts-node-dev --respawn caminho/app.ts"
   },
-
+```
 ## 🚀 Objetivo do Repositório
 O objetivo é consolidar os conhecimentos adquiridos durante o curso e criar uma base sólida para desenvolvimento com **TypeScript** em projetos reais.
 
